@@ -295,7 +295,7 @@ nav ul li a:hover {
 }
 
 .booking-section {
-    background: linear-gradient(to bottom, #a3d8f4, #05a0939c);
+    background: linear-gradient(to bottom, #f6f9fa, #05a0939c);
     padding: 80px 30px;
     min-height: 50vh;
     display: flex;
