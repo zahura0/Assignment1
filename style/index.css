@@ -403,7 +403,7 @@ button:hover {
 .bike-img {
     max-width: 98%;
     height: auto;
-    transform: rotate(-5deg) scaleX(-1);
+    transform: translateY(40px) rotate(-5deg) scaleX(-1);
     filter: drop-shadow(0 10px 30px rgba(0, 196, 180, 0.3));
     border-radius: 15px;
     transition: transform 0.5s ease;
@@ -511,19 +511,20 @@ button:hover {
     width: 80%;
     margin: 0 auto 16px auto;
     padding: 10px;
-    background-color: #00C4B4;
-    color: #ffffff;
-    border: none;
+    background-color: #ffffff;
+    color: #00C4B4;
+    border: 2px solid #00C4B4;
     border-radius: 25px;
     font-size: 1rem;
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
     font-weight: 600;
 }
 
 .popular-packages .package-card .book-now:hover {
-    background-color: #00a398;
+    background-color: #00C4B4;
     transform: translateY(-2px);
+    color: #ffffff;
 }
 
 .happy-customers {
